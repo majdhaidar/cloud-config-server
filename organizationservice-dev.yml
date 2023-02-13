@@ -1,0 +1,11 @@
+example-property: 'dev environment'
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform:  "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://localhost:5432/eagle_eye_dev"
+spring.datasource.username: "postgres"
+spring.datasource.password: "{cipher}207f6cab2514d60dbfbd9c88ef3b15b2ebec8266bec05d891c9d3bff38a0de35"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
